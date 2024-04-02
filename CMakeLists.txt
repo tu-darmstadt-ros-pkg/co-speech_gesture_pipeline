@@ -1,3 +1,12 @@
+#[[
+Copyright (c) 2024 Fachgebiet Simulation, Systemoptimierung und Robotik, TU Darmstadt.
+
+This file is part of RoboTrace
+(see https://github.com/tu-darmstadt-ros-pkg/co-speech_gesture_pipeline) 
+and is governed by a BSD-style license 
+that can be found in the LICENSE file.
+]]
+
 cmake_minimum_required(VERSION 3.0.2)
 project(speech_to_gesture)
 
