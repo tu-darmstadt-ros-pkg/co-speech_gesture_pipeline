@@ -1,0 +1,14 @@
+{
+    "cospeech_gesture_generation_venv_path" : "insert_path_to_python_3.8",
+    "cospeech_gesture_generation_inference_path" : "path to inference.py from https://github.com/youngwoo-yoon/Co-Speech_Gesture_Generation",
+    "cospeech_gesture_generation_network_path" : "path to baseline_icra19_checkpoint_100.bin from https://github.com/youngwoo-yoon/Co-Speech_Gesture_Generation",
+    "cospeech_gesture_generation_output_path" : "path to the networks output .bvh file",
+    "filter_parameters" : [
+        [40,2], 
+        [50,2],
+        [60,2],
+        [70,2]
+    ],
+    "comment" : "always_data_driven or normal or only_rule_based",
+    "robot_mode" : "only_rule_based" 
+}

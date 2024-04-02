@@ -1,0 +1,21 @@
+laptop+1+1
+keyboard+1+0.5
+monitor+1+0.5
+router+1+0.5
+wifi router+1+0.5
+television+1+-2
+tv+1+-2
+loudspeaker+1+0.25
+speaker+1+0.25
+iron+1+0
+vacuum+1+-0.5
+vacuum-cleaner+1+-0.5
+mixer+-1+0.25
+blender+-1+0.25
+food processor+-1+0.75
+juicer+-1+1
+egg cooker+-1+1.25
+egg boiler+-1+1.25
+egg stove+-1+1.25
+hair dryer+-1+2.5
+garden lamp+-1+5

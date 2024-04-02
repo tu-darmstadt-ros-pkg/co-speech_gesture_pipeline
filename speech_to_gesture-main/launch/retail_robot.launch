@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="speech_to_gesture_directory_path" type="str" value="$(find speech_to_gesture)"/>
+    <param name="robotrust_gesture_execution_path" type="str" value="$(find robotrust_gesture_execution)"/> 
+    
+    <node name="gpt_node" pkg="speech_to_gesture" type="gpt_node.py" output="screen"> </node>
+    <node name="keyword_checker_node" pkg="speech_to_gesture" type="keyword_checker_node.py" output="screen"> </node>
+    <node name="retail_robot_node" pkg="speech_to_gesture" type="retail_robot_node.py" output="screen"> </node>
+    <node name="rule_based_node" pkg="speech_to_gesture" type="rule_based_node.py" output="screen"> </node>
+    <node name="speech_generation_node" pkg="speech_to_gesture" type="speech_generation_node.py" output="screen"> </node>
+    <node name="data_driven_node" pkg="speech_to_gesture" type="data_driven_node.py" output="screen"> </node>
+
+    <node pkg="tf" type="static_transform_publisher" name="base_to_world" args="0 0 0 0 0 0 /world /base 30" />
+    
+    <include file="$(find robotrust_gesture_execution)/launch/tiago_execute_gesture.launch"/>
+</launch>
