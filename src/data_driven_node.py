@@ -1,5 +1,12 @@
 #!/path to python interpreter
 
+# Copyright (c) 2024 Fachgebiet Simulation, Systemoptimierung und Robotik, TU Darmstadt.
+
+# This file is part of Co-Speech Gesture Pipeline
+# (see https://github.com/tu-darmstadt-ros-pkg/co-speech_gesture_pipeline) 
+# and is governed by a BSD-style license 
+# that can be found in the LICENSE file.
+
 from asyncio import sleep
 from google.cloud import speech
 import io
